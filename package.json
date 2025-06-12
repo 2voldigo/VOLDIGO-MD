@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By VOLDI NY HADÈS²¹",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --VOLDIGO-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name VOLDIGO-MD",
     "stop": "pm2 stop VOLDIGO-MD",
     "restart": "pm2 restart VOLDIGO-MD"
   },
